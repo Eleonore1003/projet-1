@@ -35,15 +35,18 @@ li{
     margin-left: 210px;
     margin-bottom: 20px;
 }
-.container{
-    width: 100%;
+footer .box1{
     height: 75px;
+    width: 355px; 
+    position: absolute;
+}
+footer .color{
     background-color: orange;
-    position: absolute
+    border: 3px solid darkorange;
 }
 footer p{
     font-size: 13px;
     font-family: 'Times, Times New Roman, serif';
-    position: absolute;
     margin-left: 20px;
+    position: absolute;
 }
