@@ -4,7 +4,7 @@
     background-image: url(https://m.media-amazon.com/images/S/aplus-media-library-service-media/435f3732-fd43-43d5-a96c-25dc6d492fe7.__CR0,30,1600,495_PT0_SX970_V1___.png);
     background-repeat: no-repeat;
     background-position: 20% 30%;
-    background-size: contain;
+    background-size: 375px;
 }
 
 a:link{
@@ -49,4 +49,59 @@ footer p{
     font-family: 'Times, Times New Roman, serif';
     margin-left: 20px;
     position: absolute;
+}
+
+@media (min-width:800px){
+    .box{
+        width: 100%;
+        height: 275px;
+        background-size: 800px;
+    }
+    
+    a:link{
+        font-size: 15px;
+    }
+    
+    h1{
+        font-size: 19px; 
+        margin-top: 40px;
+    }
+    article img{
+        width: 30%;
+        height: 30%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: -15px;
+        overflow: hidden;
+    }
+    p{
+        font-size: 13px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+    li{
+        font-size: 13px; 
+        margin-left: 10px;
+    }
+    .encadrer-un-contenu{
+        font-size: 13px;
+        margin-left: 250px;
+        margin-right: 375px;
+    }
+    section img{
+        width: 30%;
+        height: 30%;
+    }
+    section p{
+        margin-top: 50px;
+    }
+    footer .box1{
+        height: 75px;
+        width: 790px; 
+    }
+    footer p{
+        font-size: 14px;
+        margin-left: 20px;
+    }
 }
