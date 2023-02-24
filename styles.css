@@ -17,6 +17,10 @@ article p{
     font-size: 11px;
     font-family: 'Times, Times New Roman, serif';
 }
+section p{
+    font-size: 11px;
+    font-family: 'Times, Times New Roman, serif';
+}
 h2{
     background-color: beige;
     font-size: 16px; 
@@ -30,4 +34,70 @@ li{
     font-size: 11px; 
     font-family: 'Times, Times New Roman, serif';
     margin-bottom: 15px;
+}
+footer .box1{
+    height: 55px;
+    width: 355px; 
+    position: absolute;
+}
+footer .color{
+    background-color: orange;
+    border: 3px solid darkorange;
+}
+footer a:link{
+    font-size: 11px;
+    font-family: 'Times, Times New Roman, serif';
+}
+footer p{
+    font-size: 11px;
+    font-family: 'Times, Times New Roman, serif';
+    margin-left: 20px;
+    position: absolute;
+}
+
+@media (min-width:800px){
+    header .container
+    {
+        height: 250px;
+        background-size: 800px;
+    }
+    h1{
+        font-size: 22px;
+    
+    }
+    article p{
+        font-size: 17px;
+    }
+    section p{
+        font-size: 17px;
+    }
+    h2{
+        font-size: 22px; 
+    }
+    h3{
+        font-size: 17px; 
+    }
+    li{
+        font-size: 17px; 
+        margin-bottom: 20px;
+    }
+    article img{
+        width: 30%;
+        height: 30%;
+    }
+    section img{
+        width: 100%;
+        height: 30%;
+    }
+    footer .box1{
+        height: 75px;
+        width: 790px; 
+    }
+    footer a:link{
+        font-size: 15px;
+    }
+    footer p{
+        font-size: 15px;
+        margin-left: 20px;
+    }
 }
