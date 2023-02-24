@@ -1,0 +1,9 @@
+header .container
+{
+    width: 100%;
+    height: 250px;
+    background-image: url(https://www.la-spa.fr/app/assets-spa/uploads/2021/10/travailler-deskop-1.jpg);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-size: 360px;
+}
